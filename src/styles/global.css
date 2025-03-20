@@ -136,3 +136,17 @@
 .get-started-btn:hover {
     background-color: #E6C200;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Hides unwanted scrollbar */
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
